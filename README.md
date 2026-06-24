@@ -1,16 +1,37 @@
-# React + Vite
+# Uni Assistant 🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uni Assistant is a modern, component-based web interface designed for seamless interaction with local Artificial Intelligence models[cite: 2]. It bridges the gap between a clean, intuitive frontend and the powerful capabilities of local LLMs running entirely on your machine.
 
-Currently, two official plugins are available:
+By connecting directly to a local AI server, Uni Assistant ensures privacy, speed, and offline capabilities without relying on external cloud APIs[cite: 2]. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Local AI Processing:** Seamlessly connects to local AI models (specifically optimized for `qwen2.5-coder`)[cite: 2].
+- **Modern UI/UX:** A responsive, clean, and highly interactive user interface.
+- **Component-Based Architecture:** Built with modularity in mind for easy scaling and maintenance[cite: 2].
+- **Privacy First:** All queries and data remain on your local device.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React[cite: 2]
+- **Styling:** Tailwind CSS v4[cite: 2]
+- **AI Server/Backend:** Ollama[cite: 2]
+- **LLM Model:** Qwen2.5-Coder[cite: 2]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Follow these steps to get a local copy up and running.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [Ollama](https://ollama.com/)
+
+### Installation & Setup
+
+1. **Clone the repository:**
+```bash
+   git clone [https://github.com/vikashudarsha/uni-assistant.git](https://github.com/vikashudarsha/uni-assistant.git)
+   cd uni-assistant
